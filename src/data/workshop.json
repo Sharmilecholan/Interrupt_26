@@ -1,23 +1,36 @@
 {
-  "Exploring Augmented Reality: A Hands-On Workshop": {
-    "date": "Mar 19",
+  "Generative AI + RAG Workshop – Build Intelligent Academic Systems": {
+    "date": "Feb 20",
     "venue": "CS LAB",
     "description": {
       "Round 1": {
         "title": "",
-        "para": "Unlock the power of augmented reality (AR) in our hands-on workshop, where innovation meets creativity. This immersive session will introduce you to the fundamentals of AR, guiding you through the essential concepts that power these groundbreaking technologies.",
-        "list": [],
-        "para1": "Participants will explore the basics of Unity, the leading game engine for AR development, and learn how to navigate its interfaces efficiently. From understanding the core mechanics of AR to implementing marker-based and marker-less AR applications, this workshop will equip you with the practical skills needed to bring digital experiences to life. Whether you are an aspiring AR developer or simply fascinated by the possibilities of this cutting-edge technology, join us to transform your ideas into reality!"
+        "para": "Step into the world of Generative AI and Retrieval-Augmented Generation (RAG) in this hands-on workshop. Participants will explore how modern AI systems can understand, retrieve, and generate accurate information using real data.",
+        "list": [
+          "Introduction to Generative AI fundamentals",
+          "Understanding LLMs, embeddings, and vector databases",
+          "Building a simple student records & academics AI application",
+          "Integrating a basic frontend interface"
+        ],
+        "para1": "This workshop equips participants with practical skills for building AI-powered academic systems and understanding real-world applications of RAG architecture in education and industry."
       }
     },
-    "event_rules": ["Respect copyright and intellectual property rights when using workshop materials or resources.", "Any unethical behaviour will result in immediate expulsion from the workshop."],
-    "event_requirements": ["Participants are advised to bring notebooks or writing utensils(pen, pencil...) for note-taking.", "Valid identification and proof of registration are required.", "Kindly bring laptop."],
+    "event_rules": [
+      "Participants must actively engage in hands-on activities.",
+      "Basic Python knowledge is required.",
+      "Any unethical behaviour will result in immediate expulsion from the workshop."
+    ],
+    "event_requirements": [
+      "Valid identification and proof of registration are required.",
+      "Laptop is necessary.",
+      "Required software must be pre-installed.",
+      "Basic Python knowledge is recommended."
+    ],
     "time": "9:00 AM - 3:00 PM",
-    "image": "https://acesvce25.github.io/interrupt-25/src/assets/events/workshop.jpeg",
+    "image": "/src/assets/events/workshop1.png",
     "contact": {
-      "Lakshmi Priya P": "+91 94983 05395",
-      "Pooja A": "+91 73974 17778"
+      "Mirthun K S": "962691012"
     },
-    "form": "https://docs.google.com/forms/d/e/1FAIpQLSfUNEUqkussrzin7vjT7WijGCC9eoUjYkfXGUSTWi6cyvajkQ/viewform?usp=sharing"
+    "form": "#"
   }
 }

@@ -1,437 +1,144 @@
 {
-
-    "departments": [
-
-      {
-        "name": "Office Bearers",
-        "teamLead": [
-          {
-          "name": "Srilekha P",
+  "departments": [
+    {
+      "name": "Office Bearers",
+      "teamLead": [
+        {
+          "name": "Mithun S",
           "role": "President",
-          "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/srilekha.jpeg",
+          "image": "src/assets/images/mithun.png",
           "linkedin": "#",
           "year": "IV",
           "dept": "AD"
         },
-          {
-            "name": "Naafiah Yusra A",
-            "role": "Vice President",
-            "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/nafia.png",
-            "linkedin": "#",
-            "year": "IV",
-            "dept": "CS"
-          },
-          {
-            "name": "Vishnuvardan A",
-            "role": "Vice President",
-            "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/vishnu.png",
-            "linkedin": "#",
-            "year": "IV",
-            "dept": "AD"
-          },
-          {
-            "name": "Sahana B",
-            "role": "Vice President",
-            "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/sahana.png",
-            "linkedin": "#",
-            "year": "IV",
-            "dept": "CS"
-          },
-          {
-            "name": "Mithun S",
-            "role": "Secretary",
-            "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/mithun.png",
-            "linkedin": "#",
-            "year": "III",
-            "dept": "AD"
-          },
-          {
-            "name": "J Pradeep Krishna",
-            "role": "Operations Head",
-            "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/pradeep.png",
-            "linkedin": "#",
-            "year": "III",
-            "dept": "AD"
-          },
-          {
-            "name": "Poojitha E S",
-            "role": "Treasurer",
-            "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/poojitha.png",
-            "linkedin": "#",
-            "year": "III",
-            "dept": "CS"
-          },
-          {
-            "name": "Sharmile S",
-            "role": "Joint Secretary",
-            "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/sharmile.png",
-            "linkedin": "#",
-            "year": "II",
-            "dept": "CS"
-          }
-        ],
-        "members":[]
-      },
-      {
-        "name": "Executive Members",
-        "teamLead": [],
-        "members": [
-          {
-            "name": "Pooja A",
-            "role": "Executive Member",
-            "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/pooja.png",
-            "linkedin": "#",
-            "year": "III",
-            "dept": "AD"
-          },
-       
-          {
-            "name": "Akeel Ahamed R S",
-            "role": "Executive Member",
-            "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/akeel.png",
-            "linkedin": "#",
-            "year": "III",
-            "dept": "CS"
-          },
-          {
-            "name": "Harsh S",
-            "role": "Executive Member",
-            "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/harsh.png",
-            "linkedin": "#",
-            "year": "III",
-            "dept": "AD"
-          },
-          {
-            "name": "Johan A",
-            "role": "Executive Member",
-            "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/johan.png",
-            "linkedin": "#",
-            "year": "II",
-            "dept": "CS"
-          },
-          {
-            "name": "Aravintth T",
-            "role": "Executive Member",
-            "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/aravintth.png",
-            "linkedin": "#",
-            "year": "II",
-            "dept": "AD"
-          },
-          {
-            "name": "Sarvesh Ragav B",
-            "role": "Executive Member",
-            "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/sarvesh.png",
-            "linkedin": "#",
-            "year": "II",
-            "dept": "CS"
-          },
-          {
-            "name": "Manoj B",
-            "role": "Executive Member",
-            "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/manojb.png",
-            "linkedin": "#",
-            "year": "II",
-            "dept": "CS"
-          },
-          {
-            "name": "Thirumurugan S",
-            "role": "Executive Member",
-            "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/thiru.png",
-            "linkedin": "#",
-            "year": "II",
-            "dept": "CS"
-          },
-          {
-            "name": "Dhaksha Kalidoss",
-            "role": "Executive Member",
-            "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/dhaksha.jpeg",
-            "linkedin": "#",
-            "year": "II",
-            "dept": "CS"
-          }
-        ]
-      }
-      
-      ,
-      {
-        "name": "Marketing and Outreach Team",
-        "teamLead": [{
-          "name": "Lakshmipriya P",
-          "role": "Marketing and Outreach Head",
-          "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/lakshmi.png",
-          "linkedin": "#",
-          "year": "III",
-          "dept": "CS"
-        }],
-        "members": [
-          {
-            "name": "Sunil Sukumaran",
-            "role": "Marketing and Outreach Member",
-            "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/sunil.png",
-            "linkedin": "#",
-            "year": "II",
-            "dept": "CS"
-          },
-          {
-            "name": "Shashank N S",
-            "role": "Marketing and Outreach Member",
-            "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/shashank.png",
-            "linkedin": "#",
-            "year": "II",
-            "dept": "CS"
-          },
-          {
-            "name": "Arjun M",
-            "role": "Marketing and Outreach Member",
-            "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/arjun.png",
-            "linkedin": "#",
-            "year": "II",
-            "dept": "AD"
-          },
-          {
-            "name": "Shriram Narasimhan",
-            "role": "Marketing and Outreach Member",
-            "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/shriram.png",
-            "linkedin": "#",
-            "year": "II",
-            "dept": "AD"
-          },
-          {
-            "name": "Shrinidhi Dasaraty",
-            "role": "Marketing and Outreach Member",
-            "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/shrinidhi.png",
-            "linkedin": "#",
-            "year": "II",
-            "dept": "CS"
-          }
-        ]
-      }
-       , {
-        "name": "Web Team",
-        "teamLead": [{
-          "name": "Praveen C ",
-          "role": "Web Team Lead",
-          "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/praveen.png",
-          "linkedin": "https://www.google.com/",
-          "year":"IV",
-          "dept":"CS"
-        }],
-        "members": [
-          {
-          "name": "Prasanna V B ",
-          "role": "Web Team Member",
-          "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/prasanna.png",
-          "linkedin": "#",
-          "year":"IV",
-          "dept":"CS"
-          },
-          {
-            "name": "Swedha S",
-            "role": "Web Team Member",
-            "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/swedha.png",
-            "linkedin": "#",
-            "year":"III",
-            "dept":"AD"
-
-          },
-          {
-            "name": "Roshinee BVN",
-            "role": "Web Team Member",
-            "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/roshinee.png",
-            "linkedin": "#",
-            "year":"III",
-            "dept":"AD"
-
-          },
-          {
-            "name": "Aadhish N",
-            "role": "Web Team Member",
-            "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/aadhish.png",
-            "linkedin": "#",
-             "year":"II",
-            "dept":"CS"
-          },
-          {
-            "name": "Swetha P",
-            "role": "Web Team Member",
-            "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/swethap.png",
-            "linkedin": "#",
-              "year":"II",
-            "dept":"CS"
-          
-          }
-
-        ]
-      },
-      {
-        "name": "App Development Team ",
-        "teamLead": [{
-          "name": "Lokesh Varathan M",
-          "role": "Photography Team Head",
-          "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/lokesh.png",
+        {
+          "name": "Kiran M S",
+          "role": "Vice President",
+          "image": "src/assets/images/kiran.png",
           "linkedin": "#",
           "year": "IV",
           "dept": "CS"
-        }],
-        "members": [
-          {
-            "name": "Mugundhan Y",
-            "role": "App Team Member",
-            "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/mugundhan.png",
-            "linkedin": "#",
-            "year": "III",
-            "dept": "AD"
-          },
-          {
-            "name": "Tejaswini K",
-            "role": "App Team Member",
-            "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/tejaswini.png",
-            "linkedin": "#",
-            "year": "II",
-            "dept": "AD"
-          },
-          {
-            "name": "Varsha G R",
-            "role": "App Team Member",
-            "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/varsha.png",
-            "linkedin": "#",
-            "year": "II",
-            "dept": "AD"
-          },
-          {
-            "name": "Thenmathi T",
-            "role": "App Team Member",
-            "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/thenmathi.jpg",
-            "linkedin": "#",
-            "year": "II",
-            "dept": "CS"
-          },
-          {
-            "name": "Harish S",
-            "role": "App Team Member",
-            "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/harishs.png",
-            "linkedin": "#",
-            "year": "II",
-            "dept": "AD"
-          }
-
-        ]
-      },
-    
-        {
-          "name": "Content Team",
-          "teamLead": [{
-            "name": "Srinidhi S",
-            "role": "Content Head",
-            "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/srinidhis.png",
-            "linkedin": "#",
-            "year": "III",
-            "dept": "CS"
-          }],
-          "members": [
-            {
-              "name": "Varshitha M",
-              "role": "Content Member",
-              "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/varshitha.png",
-              "linkedin": "#",
-              "year": "II",
-              "dept": "CS"
-            },
-            {
-              "name": "Sadhana S",
-              "role": "Content Member",
-              "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/sadhana.png",
-              "linkedin": "#",
-              "year": "II",
-              "dept": "CS"
-            },
-            {
-              "name": "Hewin Sheraj",
-              "role": "Content Member",
-              "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/hewin.png",
-              "linkedin": "#",
-              "year": "II",
-              "dept": "CS"
-            },
-            {
-              "name": "Indhumathi A P",
-              "role": "Content Member",
-              "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/indhumathi.jpg",
-              "linkedin": "#",
-              "year": "II",
-              "dept": "CS"
-            }
-          ]
         },
         {
-          "name": "Design Team",
-          "teamLead": [{
-            "name": "Manoj Kumar S",
-            "role": "Design Team Head",
-            "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/manoj.jpeg",
-            "linkedin": "#",
-            "year": "IV",
-            "dept": "AD"
-          }],
-          "members": [
-            {
-              "name": "Aneesh Kumar R",
-              "role": "Design Team Member",
-              "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/aneesh.jpeg",
-              "linkedin": "#",
-              "year": "III",
-              "dept": "AD"
-            },
-            {
-              "name": "Divya Dharshini S",
-              "role": "Design Team Member",
-              "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/divya.png",
-              "linkedin": "#",
-              "year": "II",
-              "dept": "CS"
-            },
-            {
-              "name": "Jahnavi G",
-              "role": "Design Team Member",
-              "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/jahnavi.jpg",
-              "linkedin": "#",
-              "year": "II",
-              "dept": "CS"
-            },
-            {
-              "name": "Yatish Balaji G",
-              "role": "Design Team Member",
-              "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/yathish.jpg",
-              "linkedin": "#",
-              "year": "II",
-              "dept": "CS"
-            },
-            {
-              "name": "Kavya K P",
-              "role": "Design Team Member",
-              "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/kavya.jpg",
-              "linkedin": "#",
-              "year": "II",
-              "dept": "AD"
-            }
-          ]
+          "name": "Srinidhi S",
+          "role": "Vice President",
+          "image": "src/assets/images/srinidhi.png",
+          "linkedin": "#",
+          "year": "IV",
+          "dept": "CS"
         },
         {
-          "name": "Photography Team",
-          "teamLead": [{
-            "name": "Lakshamana Perumal J",
-            "role": "Photography Team Member",
-            "image": "https://acesvce25.github.io/interrupt-25/src/assets/images/lakshaman.png",
-            "linkedin": "#",
-            "year": "II",
-            "dept": "AD"
-          }],
-          "members": []
+          "name": "Harsh S",
+          "role": "Vice President",
+          "image": "src/assets/images/harsh.png",
+          "linkedin": "#",
+          "year": "IV",
+          "dept": "AD"
+        },
+        {
+          "name": "Jai Krishna Prasath D",
+          "role": "Secretary",
+          "image": "src/assets/images/jai.png",
+          "linkedin": "#",
+          "year": "III",
+          "dept": "AD"
+        },
+        {
+          "name": "Sarvesh Raghav B",
+          "role": "Operations Head",
+          "image": "src/assets/images/raghav1.png",
+          "linkedin": "#",
+          "year": "III",
+          "dept": "CS"
+        },
+        {
+          "name": "Ashika Haseen S",
+          "role": "Treasurer",
+          "image": "src/assets/images/ashika.png",
+          "linkedin": "#",
+          "year": "III",
+          "dept": "CS"
+        },
+        {
+          "name": "Nirrmal G",
+          "role": "Joint Secretary",
+          "image": "src/assets/images/nirrms.png",
+          "linkedin": "#",
+          "year": "II",
+          "dept": "CS"
         }
-        
-        
-        
-      
-]
-  }
-  
+      ],
+      "members": []
+    },
+    {
+      "name": "Executive Members",
+      "teamLead": [],
+      "members": [
+        { "name": "Johan A", "role": "Executive Associative", "image": "src/assets/images/johan.png", "linkedin": "#", "year": "II", "dept": "CS" },
+        { "name": "Aravintth T", "role": "Executive Associative", "image": "src/assets/images/aravintth.jpeg", "linkedin": "#", "year": "II", "dept": "AD" },
+        { "name": "Shrinithi Dasarathy", "role": "Executive Associative", "image": "src/assets/images/shrinithi.png", "linkedin": "#", "year": "II", "dept": "CS" },
+        { "name": "Kavya K P", "role": "Executive Associative", "image": "src/assets/images/kavya.png", "linkedin": "#", "year": "II", "dept": "AD" },
+        { "name": "Mirthun K S", "role": "Executive Member", "image": "src/assets/images/mirthun.png", "linkedin": "#", "year": "II", "dept": "CS" },
+        { "name": "Shree Kowsik S B", "role": "Executive Member", "image": "src/assets/images/kowsik.png", "linkedin": "#", "year": "II", "dept": "CS" },
+        { "name": "Salai B Dharshini", "role": "Executive Member", "image": "src/assets/images/salai.png", "linkedin": "#", "year": "II", "dept": "CS" },
+        { "name": "C Dhinesh", "role": "Executive Member", "image": "src/assets/images/dhinesh.png", "linkedin": "#", "year": "II", "dept": "CS" },
+        { "name": "Alagu Manikandan", "role": "Executive Member", "image": "src/assets/images/am.png", "linkedin": "#", "year": "II", "dept": "CS" },
+        { "name": "Rethinagiri S", "role": "Executive Member", "image": "src/assets/images/rethinagiri.png", "linkedin": "#", "year": "II", "dept": "CS" },
+        { "name": "Arpitha Paraneetharan", "role": "Executive Member", "image": "src/assets/images/arpritha.png", "linkedin": "#", "year": "II", "dept": "CS" },
+        { "name": "Kesava Navya", "role": "Executive Member", "image": "src/assets/images/kesava.png", "linkedin": "#", "year": "II", "dept": "CS" }
+      ]
+    },
+    {
+      "name": "Web Team",
+      "teamLead": [
+        { "name": "Sharmile S", "role": "Web Team Lead", "image": "src/assets/images/sharmile.png", "linkedin": "#", "year": "III", "dept": "CS" }
+      ],
+      "members": [
+        { "name": "Sri Ram R", "role": "Web Team Member", "image": "src/assets/images/sri.png", "linkedin": "#", "year": "II", "dept": "CS" },
+        { "name": "B Jashwanth Kumar", "role": "Web Team Member", "image": "src/assets/images/jaswanth.png", "linkedin": "#", "year": "II", "dept": "CS" }
+      ]
+    },
+    {
+      "name": "Design Team",
+      "teamLead": [
+        { "name": "Aneesh Kumar R", "role": "Design Team Head", "image": "src/assets/images/aneesh.jpeg", "linkedin": "#", "year": "III", "dept": "AD" },
+        { "name": "Kanisha S", "role": "Design Team Head", "image": "src/assets/images/kanisha.png", "linkedin": "#", "year": "III", "dept": "AD" }
+      ],
+      "members": [
+        { "name": "Nantha Kishore S", "role": "Design Team Member", "image": "src/assets/images/nantha.png", "linkedin": "#", "year": "II", "dept": "AD" },
+        { "name": "Rajeshwari B C", "role": "Design Team Member", "image": "src/assets/images/raje.png", "linkedin": "#", "year": "II", "dept": "AD" },
+        { "name": "Kavinithi R P", "role": "Design Team Member", "image": "src/assets/images/kavinithi.png", "linkedin": "#", "year": "II", "dept": "AD" }
+      ]
+    },
+    {
+      "name": "Content Team",
+      "teamLead": [
+        { "name": "Sadhana S", "role": "Content Team Head", "image": "src/assets/images/sadhana.png", "linkedin": "#", "year": "III", "dept": "CS" }
+      ],
+      "members": [
+        { "name": "Mona Shree", "role": "Content Team Member", "image": "src/assets/images/mona.png", "linkedin": "#", "year": "II", "dept": "CS" },
+        { "name": "Vaishnavi Chitraa M", "role": "Content Team Member", "image": "src/assets/images/vaishnavi.png", "linkedin": "#", "year": "II", "dept": "CS" },
+        { "name": "Tharun Kumar T", "role": "Content Team Member", "image": "src/assets/images/tk.png", "linkedin": "#", "year": "II", "dept": "CS" }
+      ]
+    },
+    {
+      "name": "Marketing and Outreach Team",
+      "teamLead": [
+        { "name": "Shashank N S", "role": "Marketing Team Head", "image": "src/assets/images/shashank.png", "linkedin": "#", "year": "III", "dept": "CS" },
+        { "name": "Hariganesh A", "role": "Outreach Team Head", "image": "src/assets/images/harii.jpeg", "linkedin": "#", "year": "III", "dept": "CS" }
+      ],
+      "members": [
+        { "name": "Priyanka A", "role": "Marketing Team Member", "image": "src/assets/images/priyanka.png", "linkedin": "#", "year": "II", "dept": "CS" },
+        { "name": "Sharmila M", "role": "Marketing Team Member", "image": "src/assets/images/sharmila.png", "linkedin": "#", "year": "II", "dept": "CS" },
+        { "name": "Bhavana G", "role": "Marketing Team Member", "image": "src/assets/images/bhavana.png", "linkedin": "#", "year": "II", "dept": "CS" }
+      ]
+    },
+    {
+      "name": "Photography Team",
+      "teamLead": [],
+      "members": [
+        { "name": "V Raghav", "role": "Photography Team Member", "image": "src/assets/images/raghav.png", "linkedin": "#", "year": "II", "dept": "AD" }
+      ]
+    }
+  ]
+}

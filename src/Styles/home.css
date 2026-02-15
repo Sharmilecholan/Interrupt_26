@@ -27,7 +27,7 @@
 /* Enlarged Logo */
 .large-logo {
   width: auto; /* Increased size */
-  height: 30%;
+  height: 70%;
 }
 .event-dates {
   color: gold;
@@ -82,3 +82,94 @@
     margin-top: 30px;
   }
 }
+.button-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  padding: 0 5%;
+}
+
+/* Side buttons */
+.side-button {
+  display: flex;
+  justify-content: center;
+  width: 30%;
+}
+
+/* Center Register Buttons */
+.center-register-group {
+  display: flex;
+  flex-direction: row;   /* 🔥 Horizontal */
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Register Button Base Style */
+
+.register-btn {
+  padding: 18px 10px;     /* bigger height + width */
+  font-size: 20px;        /* bigger text */
+  font-family: 'Montserrat';
+  border-radius: 50px;    /* more rounded capsule */
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-weight: 600;
+  min-width: 320px;       /* equal width */
+}
+
+/* Events Register Style */
+.events-register {
+  background: linear-gradient(45deg, #00ffff, #0077ff);
+  color: white;
+}
+
+.events-register:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #00ffff;
+}
+
+/* Workshop Register Style */
+.workshop-register {
+  background: linear-gradient(45deg, #00ffff, #0077ff);
+  color: white;
+}
+
+.workshop-register:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #00ffff;
+}
+@media screen and (max-width: 768px) {
+
+  .button-container {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .side-button {
+    width: 100%;
+  }
+
+  .center-register-group {
+    width: 100%;
+    flex-direction: column;   /* 🔥 THIS IS WHAT YOU MISSED */
+    gap: 25px;                /* spacing between buttons */
+    align-items: center;
+  }
+
+  .register-btn {
+    width: 85%;
+    min-width: unset;
+    padding: 10px 18px;     /* reduce height + width */
+    font-size: 15px;       /* slightly smaller text */
+    border-radius: 15px;   /* less rounded */
+    min-width: 200px;
+  }
+
+}
+
+

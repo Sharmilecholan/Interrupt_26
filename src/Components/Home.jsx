@@ -24,26 +24,48 @@ export default function Home() {
         <p data-aos='fade-right'>Sri Venkateswara College of Engineering</p>{" "}
       </div>
       <div className="event-dates">
-        <p data-aos='flip-left'>19th March 2025</p>
+        <p data-aos='flip-left'>20th February 2026</p>
       </div>
 
       <div className="button-container">
-        <div className="big-button-group">
-          <FuturisticButton
-            text="Events"
-            icon={<FaCalendarAlt />}
-            onClick={() => navigate("/events")}
-            className="big-btn"
-          />{" "}
-        </div>
-        <div className="big-button-group">
-          <FuturisticButton
-            text="Workshops"
-            icon={<FaWrench />}
-            onClick={() => navigate("/workshop")}
-          />
-        </div>
-      </div>
+
+  {/* Left - Events */}
+  <div className="side-button">
+    <FuturisticButton
+      text="Events"
+      icon={<FaCalendarAlt />}
+      onClick={() => navigate("/events")}
+    />
+  </div>
+
+  {/* Center - Register Buttons */}
+  <div className="center-register-group">
+    <button
+      className="register-btn events-register"
+      onClick={() => window.open("https://your-events-form-link.com", "_blank")}
+    >
+      Register for Events
+    </button>
+
+    <button
+      className="register-btn workshop-register"
+      onClick={() => window.open("https://your-workshop-form-link.com", "_blank")}
+    >
+      Register for Workshop
+    </button>
+  </div>
+
+  {/* Right - Workshops */}
+  <div className="side-button">
+    <FuturisticButton
+      text="Workshops"
+      icon={<FaWrench />}
+      onClick={() => navigate("/workshop")}
+    />
+  </div>
+
+</div>
+
       {<Countdown />}
       {<About />}
       {<Footer />}

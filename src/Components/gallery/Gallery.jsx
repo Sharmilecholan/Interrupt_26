@@ -1,45 +1,76 @@
-import '@splidejs/splide/dist/css/splide.min.css';  // Correct Splide CSS import
-import 'lightbox2/dist/css/lightbox.min.css';  // Lightbox CSS
-import React, { useState, useEffect, useRef } from 'react';
-import { Splide, SplideSlide } from '@splidejs/react-splide';  // Correct React Splide import
+import '@splidejs/splide/dist/css/splide.min.css';
+import 'lightbox2/dist/css/lightbox.min.css';
+import React, { useRef } from 'react';
+import { Splide, SplideSlide } from '@splidejs/react-splide';
 import gallery_det from "../../data/images.json"; 
 import "../../Styles/gallery.css";
 
 const Gallery = () => {
-  const [images, setImages] = useState(gallery_det);
-  const splideRef = useRef(null);  // Create a ref to store the Splide instance
+  // Accessing both arrays from the JSON
+  const images23 = gallery_det.interrupt23;
+  const images25 = gallery_det.interrupt25;
 
-  const handleThumbnailClick = (index) => {
-    if (splideRef.current) {
-      splideRef.current.splide.go(index);  // Navigate to the selected slide
+  const splide23Ref = useRef(null);
+  const splide25Ref = useRef(null);
+
+  const handleThumbnailClick = (ref, index) => {
+    if (ref.current) {
+      ref.current.splide.go(index);
     }
+  };
+
+  // Shared options for both carousels
+  const splideOptions = {
+    type: 'loop',
+    perPage: 3,
+    gap: '1rem',
+    autoplay: true,
+    interval: 3000,
+    pauseOnHover: false,
+    arrows: true,
+    pagination: true,
+    drag: true,
+    breakpoints: {
+      1024: { perPage: 2 },
+      768: { perPage: 1 },
+    },
   };
 
   return (
     <div className='gallery'>
-      {/* Image Carousel */}
-      <h1>INTERRUPT'23</h1>
-      <Splide
-        ref={splideRef}  // Attach the ref to the Splide component
-        options={{
-          type: 'loop',
-          perPage: 3,
-          gap: '1rem',
-          autoplay: true,
-          interval: 3000,
-          pauseOnHover: false,
-          arrows: true,
-          pagination: true,
-          drag: true,
-          breakpoints: {
-            1024: { perPage: 2 },
-            768: { perPage: 1 },
-          },
-        }}
-      >
-        {images.map((image, index) => (
+      {/* --- INTERRUPT '25 SECTION (NEW) --- */}
+      <h1>INTERRUPT '25</h1>
+      <Splide ref={splide25Ref} options={splideOptions}>
+        {images25.map((image, index) => (
           <SplideSlide key={index}>
-            <a href={image.url} data-lightbox="gallery" data-title={image.caption}>
+            <a href={image.url} data-lightbox="gallery25">
+              <img src={image.url} alt={`Interrupt 25 Image ${index}`} />
+            </a>
+            {/* No caption div here */}
+          </SplideSlide>
+        ))}
+      </Splide>
+
+      <div className="thumbnail-nav">
+        {images25.map((image, index) => (
+          <img
+            src={image.thumbnail}
+            alt={`Thumbnail 25 ${index + 1}`}
+            key={index}
+            onClick={() => handleThumbnailClick(splide25Ref, index)}
+            className="thumb-img"
+          />
+        ))}
+      </div>
+
+      <div className="section-divider" style={{ margin: '50px 0' }} />
+
+      {/* --- INTERRUPT '23 SECTION (EXISTING) --- */}
+      <h1>INTERRUPT '23</h1>
+      <Splide ref={splide23Ref} options={splideOptions}>
+        {images23.map((image, index) => (
+          <SplideSlide key={index}>
+            <a href={image.url} data-lightbox="gallery23" data-title={image.caption}>
               <img src={image.url} alt={image.caption} />
             </a>
             <div className="caption">{image.caption}</div>
@@ -47,15 +78,14 @@ const Gallery = () => {
         ))}
       </Splide>
 
-      {/* Thumbnail Navigation */}
       <div className="thumbnail-nav">
-        {images.map((image, index) => (
+        {images23.map((image, index) => (
           <img
             src={image.thumbnail}
-            alt={`Thumbnail ${index + 1}`}
+            alt={`Thumbnail 23 ${index + 1}`}
             key={index}
-            onClick={() => handleThumbnailClick(index)}  // Use the ref to navigate
-            style={{ cursor: 'pointer', margin: '0.5rem' }}  // Optional style for thumbnails
+            onClick={() => handleThumbnailClick(splide23Ref, index)}
+            className="thumb-img"
           />
         ))}
       </div>

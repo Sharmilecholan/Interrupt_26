@@ -1,275 +1,387 @@
 {
-  "Code Bingo": {
-    "date": "Mar 19",
-    "venue": "Round 1 - Block 5, Round 2 - CS LAB",
+  "Code Auction": {
+    "date": "Feb 20",
+    "venue": "To be Announced",
     "description": {
       "Round 1": {
-        "title": "Cryptography & Binary Encoding Quiz",
-        "para": "In this round, teams will face a challenging quiz designed to test their proficiency in cryptography, binary encoding, and related computational concepts. Questions will cover:",
-        "list": ["Binary-to-text encoding methods (e.g., ASCII, Base64)", "Cryptographic techniques such as hashing and encryption", "Logical puzzles requiring encoding and decoding skills"],
-        "para1": "Only the top 10 teams with the highest scores will advance to the next round."
+        "title": "Programming MCQ Quiz",
+        "para": "In this round, teams will take part in a multiple-choice quiz designed to assess their fundamental programming knowledge and logical thinking skills. Questions will cover a wide range of programming concepts. For every correct answer, teams will earn coins, which will play a crucial role in the next round.",
+        "list": [],
+        "para1": "Only teams with the highest coin counts will gain a strategic advantage moving forward."
       },
       "Round 2": {
-        "title": "Code Bingo",
-        "para": "This round adds a strategic twist to coding. Each team will receive a 5x5 Bingo grid, where every cell contains a unique coding problem. To secure victory, participants must solve five problems in a valid pattern:",
-        "list": ["A complete row", "A complete column"],
-        "para1": "Each correct solution allows teams to mark off a corresponding letter in \"BINGO.\" The first team to successfully complete a qualifying pattern will emerge as the winner."
+        "title": "Code Auction",
+        "para": "Teams will use the coins earned in Round 1 to bid in an auction for essential coding components. The exact coding problems will not be revealed before the auction, though general hints may be provided.",
+        "list": [],
+        "para1": "All items are limited, non-exchangeable, and must be used wisely."
+      },
+      "Round 3": {
+        "title": "Coding Challenge",
+        "para": "Teams must solve the given programming problems using only the components they purchased during the auction.",
+        "list": [
+          "Basic syntax and input/output operations are free to use",
+          "Solutions will be evaluated based on correctness and efficiency"
+        ],
+        "para1": "Teams must manage their resources carefully to produce the best possible solution within the given time."
       }
     },
     "event_rules": [
       "Team Size : 2 members only",
       "Use of any AI tools is not allowed.",
-      "Participants must submit fully functional code before marking a box. Incorrect solutions will not be accepted.",
-      "No skipping or switching problems—participants must solve the exact problem assigned to a box.",
-      "Code execution must be verified by the event coordinators before striking out a letter.",
       "The judge's decision is final."
     ],
-    "event_requirements": ["Valid identification and proof of registration are required.", "Bring pen and laptop."],
+    "event_requirements": [
+      "Valid identification and proof of registration are required.",
+      "Bring pen."
+    ],
     "time": "9:30 AM - 3:00 PM",
-    "image": "https://acesvce25.github.io/interrupt-25/src/assets/events/code_bingo.png",
+    "image": "/src/assets/events/code_auction.png",
     "prize": {
-      "Winner": "TBH",
-      "Runner Up": "TBH"
+      "Winner": "TBA",
+      "Runner Up": "TBA"
     },
     "contact": {
-      "Poojitha E S": "+91 78240 25827",
-      "Praveen C": "+91 91504 45770"
+      "Jai Krishna Prasath": "9080863743",
+      "Mona Shree": "7094200633"
     },
-    "form": "https://docs.google.com/forms/d/e/1FAIpQLSdbARykwU0DRtYYZB2p6In4sT6q_Mu-ezCCQXN6QRLRHf1amQ/viewform?usp=dialog"
+    "form": "#"
   },
 
-  "Conquer and Design": {
-    "date": "Mar 19",
-    "venue": "Round 1 - Block 5, Round 2 - CS LAB",
+  "Logic Lockdown": {
+    "date": "Feb 20",
+    "venue": "To be Announced",
     "description": {
       "Round 1": {
-        "title": "UI/UX Challenge Quiz (Online)",
-        "para": "Teams will participate in a quiz that assesses their knowledge of UI/UX principles, usability concepts, and design thinking. The top 15 teams will be shortlisted for the next round.",
+        "title": "Player Screening (Preliminary Logic Escape)",
+        "para": "Teams of two solve 8–10 sequential mini-puzzles focused on logic, pattern recognition, cipher decoding, and computer science aptitude within 30 minutes.",
         "list": [],
-        "para1": ""
+        "para1": "The first 10 teams to solve all puzzles qualify for Round 2."
       },
       "Round 2": {
-        "title": "The Evolutionary Design Challenge",
-        "para": "In this round, teams will engage in a strategic challenge where they acquire two companies and adapt their business models to historical and futuristic tech advancements. Throughout the round, teams will encounter real-time technological disruptions such as the invention of the internet, AI breakthroughs, or the rise of blockchain and must modify their UI/UX designs accordingly.",
+        "title": "Crewmate Technical",
+        "para": "An advanced logical round with interconnected puzzles and minimal algorithm tracing.",
         "list": [],
-        "para1": "Each team will create an interface based on their acquired companies' domain (e.g., FinTech, E-Commerce, Healthcare) while addressing the unique challenges of their assigned tech era. This round tests teams' ability to innovate, strategize, and design user-centric interfaces."
+        "para1": "Top 5 teams advance based on accuracy, problem-solving flow, and time taken."
+      },
+      "Round 3": {
+        "title": "Ultimate Escape Arena",
+        "para": "An immersive physical and logical escape challenge conducted inside a decorated classroom where teams search for hidden clues and solve interconnected tasks.",
+        "list": [],
+        "para1": "The fastest and most accurate team to successfully escape wins."
       }
     },
     "event_rules": [
-      "Teams are limited to a maximum of 2 members.",
-      "Acquired companies should align with the UI/UX designs created.",
-      "Teams must justify their investment and design decisions during the final presentation.",
-      "Unethical conduct or plagiarism will lead to immediate disqualification.",
-      "Judges' decisions are final."
+      "Each team must consist of 2 members.",
+      "AI tools are not allowed.",
+      "All tasks must be completed within the given time limit.",
+      "Judges’ decision will be final and binding."
     ],
-    "event_requirements": ["Participants must bring their own laptops or devices for both rounds.", "Any required design software or tools should be pre-installed on participants' devices.", "Valid identification and proof of registration are mandatory."],
+    "event_requirements": [
+      "Valid identification and proof of registration are required.",
+      "Pen and paper required."
+    ],
     "time": "9:30 AM - 3:00 PM",
-    "image": "https://acesvce25.github.io/interrupt-25/src/assets/events/conq_design.jpg",
+    "image": "/src/assets/events/logic_lockdown.png",
     "prize": {
-      "Winner": "TBH",
-      "Runner Up": "TBH"
+      "Winner": "TBA",
+      "Runner Up": "TBA"
     },
     "contact": {
-      "Aneesh Kumar R": "+91 74014 55733",
-      "Vishnuvardan A": "+91 72992 13502"
+      "Nirrmal G": "6374310007",
+      "Kesava Navya": "9445445959"
     },
-    "form": "https://docs.google.com/forms/d/e/1FAIpQLSehofhd58fSMQ9X9UHvBp6xytfU88Ba-osGh3MA-WsCnrXk7g/viewform?usp=dialog"
+    "form": "#"
   },
 
-  "The Lost Code": {
-    "date": "Mar 19",
-    "venue": "Block 5",
-    "description": {
-      "Round 1": {
-        "title": "",
-        "para": "Treasure Hunt is an exciting, adventurous, and fun-filled technical game that will put your problem-solving and coding skills to the test! This multi-stage challenge will taketeams through a series of thrilling tasks, from cracking riddles to uncovering hidden clues and solving logic-based puzzles. As you progress through different rooms, each step will bring you closer to the grand finale, where a final coding challenge awaits. Speed, accuracy, and teamwork are key to outsmarting the competition and claiming victory. Burst through obstacles—literally—and race against time to prove your technical prowess.",
-        "list": [],
-        "para1": ""
-      }
-    },
-    "event_rules": ["Team Size : 2 Members", "Use of any AI tools is not allowed."],
-    "event_requirements": ["Valid identification and proof of registration are required.", "Bring pen"],
-    "time": "9:30 AM - 3:00 PM",
-    "image": "https://acesvce25.github.io/interrupt-25/src/assets/events/lost_code.jpeg",
-    "prize": {
-      "Winner": "TBH",
-      "Runner Up": "TBH"
-    },
-    "contact": {
-      "Manoj Kumar S": "+91 82209 69058",
-      "Akeel Ahamed R S": "+91 77083 82698"
-    },
-    "form": "https://docs.google.com/forms/d/e/1FAIpQLSeHYDMAMGDzSJtKAL3xvGLbuk0tuFPL_YbiQdSOcFyX_LT71g/viewform?usp=dialog"
-  },
-
-  "Squid Game": {
-    "date": "Mar 19",
-    "venue": "Block 5",
-    "description": {
-      "Round 1": {
-        "title": "",
-        "para": "In this high-stakes solo event inspired by Squid Game, participants will face off against a series of challenges designed to test their tech skills, strategy, and nerves of steel. The event will kick off with a hands-on challenge that requires precision and patience. Then, get ready for a heart-pumping game of Red Light, Green Light, where participants must solve tech puzzles under the pressure of alternating lights. One wrong move during the red light, and you're out! Later, participants will roll the dice to determine their fate and tackle a high-pressure question-solving round. Only the sharpest minds will survive the competition and be crowned the ultimate winner.",
-        "list": [],
-        "para1": ""
-      }
-    },
-    "event_rules": [
-      "This is a solo event.",
-      "Participants must complete each task within the allotted time or according to the specific challenge rules to avoid elimination.",
-      "No external help or devices are allowed.",
-      "Judges' decisions are final.",
-      "Participants must follow the specific rules and instructions provided for each task."
-    ],
-    "event_requirements": ["Participants are advised to bring their own writing materials (pen, pencil) to solve the riddles.", "Valid identification and proof of registration are required."],
-    "time": "9:30 AM - 3:00 PM",
-    "image": "https://acesvce25.github.io/interrupt-25/src/assets/events/squid_game.jpeg",
-    "prize": {
-      "Winner": "TBH",
-      "Runner Up": "TBH"
-    },
-    "contact": {
-      "Pooja A": "+91 73974 17778",
-      "Naafiah Yusra A": "+91 93618 87936"
-    },
-    "form": "https://docs.google.com/forms/d/e/1FAIpQLSc3vgYMl0hD26eTxNEz6moQAHhcsTCVcgS0NOWbjd7LO2p1cg/viewform?usp=dialog"
-  },
-
-  "TechConnex - The Ultimate Tech Challenge!": {
-    "date": "Mar 19",
-    "venue": "Round 1 - Block 5, Round 2 - CS LAB",
-    "description": {
-      "Round 1": {
-        "title": "Connexion - The Tech Puzzle Challenge!",
-        "para": "In this round, teams will be presented with a series of technology-related images, words, or clues. The objective is to find the hidden connection as quickly as possible. Each correct answer earns 10 points, and there are no penalties for wrong answers. The teams with the highest scores will qualify for the next round.",
-        "list": [],
-        "para1": ""
-      },
-      "Round 2": {
-        "title": "Data Warriors - The Ultimate Data Battle! ",
-        "para": "In this round, teams will receive a mystery dataset related to real-world problems. Their mission is to preprocess, analyze, and visualize the data using Python, R, Excel, Power bi, Tableau or any preferred tool. After 60 minutes of analysis, each team will present their findings in a 5-minute pitch followed by a Q&A session with the judges.",
-        "list": [],
-        "para1": ""
-      }
-    },
-    "event_rules": [
-      "Team Size : 2 Members",
-      "Use of AI tools is not allowed.",
-      "Participants must approach tasks positively and complete them without objection.",
-      "Malpractices of any kind will result in immediate disqualification.",
-      "Each team must ensure their solutions run successfully before submission.",
-      "Judges' decisions are final and binding."
-    ],
-    "event_requirements": ["Valid identification and proof of registration are required.", "Each participant must bring their own laptop."],
-    "time": "9:30 AM - 3:00 PM",
-    "image": "https://acesvce25.github.io/interrupt-25/src/assets/events/tech_conex.png",
-    "prize": {
-      "Winner": "TBH",
-      "Runner Up": "TBH"
-    },
-    "contact": {
-      "Harsh S": "+91 98414 51401",
-      "Lokesh Varathan M": "+91 83002 71821"
-    },
-    "form": "https://docs.google.com/forms/d/e/1FAIpQLSe1LR036I6cYI4j2MW55BBph4aoSDK70-zKZ5hrQtxDOo78ow/viewform?usp=dialog"
-  },
-
-  "Gauntlet Quest": {
-    "date": "Mar 19",
-    "venue": "Block 5",
-    "description": {
-      "Round 1": {
-        "title": "Preliminary Round",
-        "para": "Teams solve technical problems in 30 minutes to collect Infinity Stones",
-        "list": [
-          "Teams will get one infinity stone each for every coding problem solved",
-          "Teams which obtain the maximum Infinity Stones (five) will be sent to round",
-          "Teams which obtain more than three infinity stones will be put into safe zone where the team will have a higher probability to be selected for round two",
-          "If a team obtains five infinity stones two of the stones can be used as advantage stones in round"
-        ],
-        "para1": ""
-      },
-      "Round 2": {
-        "title": "Final Round",
-        "para": "Each team is assigned a company and a root problem by the event organisers. Teams must develop solutions using existing and evolving domains of technology and pitch them to the judges. Advantage Stones can be used to:",
-        "list": ["Pick Their Company - Choose a company instead of being randomly assigned one.", "Assign Constraints - Can pick a constraint/penalty for an opponent from the given list.", "Double Advantage - Use both benefits (only if they have two advantage stones)."],
-        "para1": "The best solutions will be determined by the judges."
-      }
-    },
-    "event_rules": ["Team Size : 2 members only.", "Solutions must be original."],
-    "event_requirements": ["Proof of registration & ID required."],
-    "time": "9:30 AM - 3:00 PM",
-    "image": "https://acesvce25.github.io/interrupt-25/src/assets/events/gauntlet.jpeg",
-    "prize": {
-      "Winner": "TBH",
-      "Runner Up": "TBH"
-    },
-    "contact": {
-      "Pradeep Krishna J": "+91 98845 42004",
-      "Sahana B": "+91 78248 82255"
-    },
-    "form": "https://docs.google.com/forms/d/e/1FAIpQLSdz-osb2ICIr-XUHu6LbxSruRQ0xqKQoWRr1V1GU1iSc7p8SQ/viewform?usp=dialog"
-  },
-  "Uno Mania": {
-    "date": "Mar 19",
-    "venue": "Round 1 - Block 5, Round 2 - CS LAB",
-    "description": {
-      "Round 1": {
-        "title": "Crossword Puzzle",
-        "para": "In this round, teams will be presented with a technical crossword puzzle. Clues will be provided for words arranged across, down, and up. The objective is to solve the puzzle accurately in the shortest possible time. The top 10 teams with the fastest completion times will qualify for the next round. Round 1 will be conducted in four batches.",
-        "list": [],
-        "para1": ""
-      },
-      "Round 2": {
-        "title": "UNO Coding",
-        "para": "In this round, teams will tackle three unique coding problems with an exciting twist. Participants will draw UNO cards, each introducing tasks, penalties, or advantages. Additionally, unexpected challenges will arise as they solve each question, testing their adaptability and problem-solving skills. Teams must ensure seamless execution of their code within the given time, and those who complete the challenges fastest will win.",
-        "list": [],
-        "para1": ""
-      }
-    },
-    "event_rules": [
-      "Team Size : 2 members only.",
-      "Use of any AI tools is not allowed.",
-      "Participants are kindly asked to complete tasks without objection, approaching them positively.",
-      "Malpractices of any sort are strictly condemned. If found it results in immediate disqualification.",
-      "Each team must ensure their code runs successfully before submission. Partial or incorrect solutions aren’t accepted.",
-      "Judge's decisions are final."
-    ],
-    "event_requirements": ["Valid identification and proof of registration are required.", "Bring pen and laptop."],
-    "time": "9:30 AM - 3:00 PM",
-    "image": "https://acesvce25.github.io/interrupt-25/src/assets/events/uno.png",
-    "prize": {
-      "Winner": "TBH",
-      "Runner Up": "TBH"
-    },
-    "contact": {
-      "Srilekha P": "+91 78128 63379",
-      "Mithun S": "+91 +91 70103 41676"
-    },
-    "form": "https://docs.google.com/forms/d/e/1FAIpQLSeqng4ckD2K8LbjQ3m8PV18EKYkSm4Y1X5STiqdOVBYGj8jLQ/viewform?usp=sharing"
-  },
   "Paper Presentation": {
-    "date": "Mar 19",
+    "date": "Feb 20",
     "venue": "CS LAB",
     "description": {
       "Round 1": {
         "title": "",
-        "para": "This event serves as a platform for students, professionals, and researchers to explore and present cutting-edge advancements in various technology domains. Participants will have the opportunity to showcase their research, gain insights from experts, and engage in discussions on emerging trends.",
+        "para": "This paper presentation event offers students, professionals, and researchers a platform to present innovative ideas and research across diverse technology domains.",
         "list": [],
-        "para1": "The event covers a broad spectrum of fields, including Artificial Intelligence, Cybersecurity, Data Science, Machine Learning, Blockchain, Internet of Things (IoT), and Cloud Computing."
+        "para1": "Domains include Artificial Intelligence, Cybersecurity, Data Science, Machine Learning, Blockchain, Internet of Things (IoT), and Cloud Computing."
       }
     },
-    "event_rules": ["Teams size can be either 2 or 3 members.", "Any unethical behaviour will result in immediate disqualification from the event.", "Participants must strictly adhere to the assigned domain provided by the panel.", "The judges' decision will be final and binding."],
-    "event_requirements": ["Valid identification and proof of registration are mandatory.", "Participants are required to bring their own laptops."],
+    "event_rules": [
+      "Each team must consist of 2 to 3 members.",
+      "Participants must present within the domain assigned by the panel.",
+      "Any unethical behaviour will result in immediate disqualification.",
+      "Judges’ decisions are final and binding."
+    ],
+    "event_requirements": [
+      "Valid ID proof and registration confirmation are mandatory.",
+      "Participants must bring their own laptops."
+    ],
     "time": "9:30 AM - 3:00 PM",
-    "image": "https://acesvce25.github.io/interrupt-25/src/assets/events/paper.png",
+    "image": "/src/assets/events/paper.png",
     "prize": {
-      "Winner": "TBH",
-      "Runner Up": "TBH"
+      "Winner": "TBA",
+      "Runner Up": "TBA"
     },
     "contact": {
-      "Srinidhi S": "+91 93848 41839",
-      "Prasanna V B": "+91 73050 45675"
+      "Srinidhi": "9384841839"
     },
-    "form": "https://docs.google.com/forms/d/e/1FAIpQLScIchwHB0Z_vvzvp2FHKcAphuLBXV7-CGI2keI1hpzb11F15w/viewform?usp=dialog"
+    "form": "#"
+  },
+
+  "Among Bytes": {
+    "date": "Feb 20",
+    "venue": "To be Announced",
+    "description": {
+      "Round 1": {
+        "title": "Task Phase & Strategy",
+        "para": "Among Bytes is a technical game inspired by Among Us, combining coding challenges, logical reasoning, and psychological strategy.",
+        "list": [
+          "Each team consists of 4 members (3 Crewmates, 1 Impostor)",
+          "Impostor is assigned randomly and confidentially",
+          "Crewmates must complete assigned technical tasks",
+          "Impostor must mislead without obvious sabotage"
+        ],
+        "para1": "Success depends on collaboration, observation, and strategic decision-making."
+      }
+    },
+    "event_rules": [
+      "Only team discussion is allowed.",
+      "Internet usage is not allowed unless stated.",
+      "All tasks must be completed within time.",
+      "Ethical gameplay is mandatory."
+    ],
+    "event_requirements": [
+      "Valid identification and proof of registration are required.",
+      "Laptop is necessary."
+    ],
+    "time": "9:30 AM - 3:00 PM",
+    "image": "/src/assets/events/among.png",
+    "prize": {
+      "Winner": "TBA",
+      "Runner Up": "TBA"
+    },
+    "contact": {
+      "Dhinesh": "9445399983"
+    },
+    "form": "#"
+  },
+
+  "Workshop": {
+    "date": "Feb 20",
+    "venue": "To be Announced",
+    "description": {
+      "Round 1": {
+        "title": "Generative AI + RAG Workshop",
+        "para": "A hands-on workshop exploring Generative AI and Retrieval-Augmented Generation (RAG). Participants will build a student records and academics AI application.",
+        "list": [
+          "Introduction to LLMs and embeddings",
+          "Understanding RAG architecture",
+          "Building an AI-powered academic query system",
+          "Frontend integration concepts"
+        ],
+        "para1": "Participants gain practical skills for real-world AI applications."
+      }
+    },
+    "event_rules": [
+      "Participants must actively engage in hands-on activities.",
+      "Basic Python knowledge required."
+    ],
+    "event_requirements": [
+      "Valid identification and proof of registration required.",
+      "Laptop necessary.",
+      "Required software must be pre-installed."
+    ],
+    "time": "9:30 AM - 3:00 PM",
+    "image": "/src/assets/events/workshop1.png",
+    "prize": {
+      "Winner": "-",
+      "Runner Up": "-"
+    },
+    "contact": {
+      "Mirthun K S": "962691012"
+    },
+    "form": "#"
+  },
+
+  "Cyber Arena": {
+    "date": "Feb 20",
+    "venue": "To be Announced",
+    "description": {
+      "Round 1": {
+        "title": "Cyber Bingo",
+        "para": "A Bingo-based cybersecurity quiz testing theoretical understanding.",
+        "list": [
+          "5x5 cybersecurity Bingo grid",
+          "Concept-based questions",
+          "Correct Bingo qualifies for next round"
+        ],
+        "para1": ""
+      },
+      "Round 2": {
+        "title": "Capture The Flag (CTF)",
+        "para": "Teams solve 4–5 cybersecurity challenges involving vulnerabilities and decoding.",
+        "list": [
+          "Identify vulnerabilities",
+          "Solve security-based problems",
+          "Submit flags for points"
+        ],
+        "para1": "Evaluation based on accuracy, difficulty, and completion time."
+      }
+    },
+    "event_rules": [
+      "Team size: 2-3 members.",
+      "AI tools are not allowed.",
+      "All tasks must be completed within time.",
+      "Judges’ decision is final."
+    ],
+    "event_requirements": [
+      "Valid identification and proof of registration required."
+    ],
+    "time": "9:30 AM - 3:00 PM",
+    "image": "/src/assets/events/cyber_arena.png",
+    "prize": {
+      "Winner": "TBA",
+      "Runner Up": "TBA"
+    },
+    "contact": {
+      "Johan": "7904163364"
+    },
+    "form": "#"
+  },
+
+  "Mindflyer Cipher Challenge": {
+    "date": "Feb 20",
+    "venue": "To be Announced",
+    "description": {
+      "Round 1": {
+        "title": "Binary Breach Gate",
+        "para": "Teams decode binary messages and answer technical questions to obtain Key 1.",
+        "list": [],
+        "para1": ""
+      },
+      "Round 2": {
+        "title": "Logic and Math Gate",
+        "para": "Teams solve number patterns and reasoning challenges to obtain Key 2.",
+        "list": [],
+        "para1": ""
+      },
+      "Round 3": {
+        "title": "Cipher Lock Gate",
+        "para": "Teams decode encrypted Caesar or substitution ciphers to obtain Key 3.",
+        "list": [],
+        "para1": ""
+      }
+    },
+    "event_rules": [
+      "Each team must consist of exactly 2 members.",
+      "Mobile phones are strictly prohibited.",
+      "Judges’ decision is final."
+    ],
+    "event_requirements": [
+      "Laptop is necessary.",
+      "Valid identification and proof of registration required.",
+      "Bring pen."
+    ],
+    "time": "9:30 AM - 3:00 PM",
+    "image": "/src/assets/events/mind_flayer.png",
+    "prize": {
+      "Winner": "TBA",
+      "Runner Up": "TBA"
+    },
+    "contact": {
+      "Priyanka": "7305703250"
+    },
+    "form": "#"
+  },
+  "Design Dash": {
+    "date": "Feb 20",
+    "venue": "To be Announced",
+    "description": {
+      "Round 1": {
+        "title": "App Idea Pitch",
+        "para": "In this round, participants will present a quick and creative verbal pitch based on randomly assigned app categories. This round is designed to evaluate creativity, logical thinking, and communication skills without focusing on written tests or drawing abilities.",
+        "list": [
+          "Conceptualize an app by combining given categories",
+          "Present idea within a short time frame",
+          "Demonstrate originality, feasibility, and innovation"
+        ],
+        "para1": "Only the top-performing teams will qualify for the next round."
+      },
+      "Round 2": {
+        "title": "UI Design Challenge",
+        "para": "Participants will design the user interface for the same app idea pitched in Round 1 using approved design tools. Teams must translate their concept into a visually appealing and user-friendly UI.",
+        "list": [
+          "Design multiple screens",
+          "Maintain consistency and usability",
+          "Ensure clear navigation",
+          "Align UI with original app idea"
+        ],
+        "para1": "Designs will be evaluated on visual aesthetics, creativity, and overall user experience within the given duration."
+      }
+    },
+    "event_rules": [
+      "Team size must be 1–2 participants only.",
+      "Participants must use only approved design tools (Figma / Adobe XD / Sketch / Canva).",
+      "Original work only — pre-made templates, previous projects, or copied designs are strictly prohibited.",
+      "Internet usage allowed only for basic assets unless stated otherwise.",
+      "Shortlisted teams must continue with the same app idea in Round 2.",
+      "Judges’ decision will be final and binding."
+    ],
+    "event_requirements": [
+      "Laptop is necessary with installed required software.",
+      "Valid identification and proof of registration are required.",
+      "Pen and paper."
+    ],
+    "time": "Round 1: 9:30 AM ",
+    "image": "/src/assets/events/design_dash.png",
+    "prize": {
+      "Winner": "TBA",
+      "Runner Up": "TBA"
+    },
+    "contact": {
+      "Aravintth": "8072611599"
+    },
+    "form": "#"
+  },
+  "Root Access": {
+    "date": "Feb 20",
+    "venue": "To be Announced",
+    "description": {
+  "Round 1": {
+    "title": "Decode the Logic. Navigate the System. Gain Access.",
+    "para": "Root Access is a single-round, logic-driven technical challenge that tests participants’ programming skills, logical reasoning, and system-level understanding.",
+    "list": [
+      "Logical reasoning and algorithmic thinking",
+      "Function implementation based on constraints",
+      "Debugging and accurate code execution",
+      "Correct terminal commands and directory navigation",
+      "System-level problem-solving skills"
+    ],
+    "para1": "Teams must analyze problem statements, validate using dummy input, generate an access key, and navigate hidden directories using the terminal. The team retrieving the maximum valid keywords within the time limit wins."
+  }
+  },
+    "event_rules": [
+      "Each team must consist of exactly 2 members.",
+      "Participants may use any programming language available on the system.",
+      "Participants must use the terminal to write, compile, and execute their code.",
+      "Participants must validate their code using dummy input before receiving actual input.",
+      "Internet usage is strictly prohibited.",
+      "Mobile phones, internet, or external storage devices are not allowed.",
+      "Participants may only access directories using valid generated keys.",
+      "Participants must not modify, delete, or tamper with system folders or files.",
+      "Teams must work independently."
+    ],
+    "event_requirements": [
+      "Valid identification and proof of registration are required.",
+      "Bring notebook and pen."
+    ],
+    "time": "To be Announced",
+    "image": "/src/assets/events/root_access.png",
+    "prize": {
+      "Winner": "TBA",
+      "Runner Up": "TBA"
+    },
+    "contact": {
+      "Nantha Kisore": "8056242898"
+    },
+    "form": "#"
   }
 }

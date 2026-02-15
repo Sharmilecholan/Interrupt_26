@@ -1,12 +1,82 @@
-/* Container Styling */
-.sponsors-container {
+/* =========================================
+   NEW CTA UI (Matches About Page)
+   ========================================= */
+.sponsors-page-wrapper {
+  padding-bottom: 50px;
+}
+
+.sponsor-cta-box {
+  border: 5px solid goldenrod;
+  margin: 50px 150px 50px 150px;
+  position: relative;
+  border-radius: 30px;
+  padding: 1%;
+}
+
+.sponsor-cta-box h2 {
+  font-family: "Poppins";
+    font-size: 300%;
+    font-weight: 500;
+    color: #FFD700;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    margin: 0;
+}
+
+.sponsor-cta-box p {
+  font-family: 'Poppins';
+  padding: 0px 40px;
+  margin: 30px;
+  font-size: 160%;
+  text-align: justify;
+  color: white; /* Adjusted for visibility */
+}
+
+.cta-btn-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.cta-brochure-btn {
+  border: 2px solid goldenrod;
+  color: goldenrod;
+  padding: 12px 25px;
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-weight: bold;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.cta-brochure-btn:hover {
+  background: goldenrod;
+  color: black;
+}
+
+/* Responsiveness for CTA */
+@media (max-width: 1024px) {
+  .sponsor-cta-box { margin: 100px 20px 30px 20px; padding: 20px; }
+  .sponsor-cta-box h2 { font-size: 32px; }
+  .sponsor-cta-box p { font-size: 20px; padding: 0 20px; }
+}
+
+@media (max-width: 480px) {
+  .sponsor-cta-box { margin: 140px 0 0 0; padding: 20px; }
+  .sponsor-cta-box h2 { font-size: 24px; }
+  .sponsor-cta-box p { font-size: 16px; padding: 0 10px; }
+}
+
+/* =========================================
+   ORIGINAL UI (KEEPING FOR FUTURE USE)
+   To use: Uncomment the section in the JSX
+   ========================================= */
+
+/* .sponsors-container {
   text-align: center;
   padding: 20px;
   width: 70%;
   margin: 0 auto;
-
-  /* border-radius: 8px; */
-  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); */
 }
 
 .sponsors-container h1 {
@@ -19,18 +89,13 @@
   padding: 20px;
 }
 
-/* Grid Styling */
 .sponsors-grid {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* grid-template-columns: repeat(4, 1fr); 4 columns for desktop */
-  /* gap: 20px; Space between items */
-  /* justify-items: center; */
 }
 
-/* Card Styling */
 .sponsor-card {
   background: #fff;
   border-radius: 8px;
@@ -42,55 +107,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
 }
 
-.sponsor-card:hover {
-  transform: scale(1.05);
-}
+.sponsor-card:hover { transform: scale(1.05); }
 
-/* Consistent Image Sizing */
 .sponsor-card img {
-  width: 100%; /* Set a fixed height */
-  object-fit: cover; /* Ensures the image fills the area */
+  width: 100%; 
+  object-fit: cover; 
   border-radius: 4px;
   margin-bottom: 10px;
 }
-
-.sponsor-card p {
-  font-size: 1rem;
-  color: goldenrod;
-  margin: 0;
-}
-
-/* Responsive Styling */
-@media (max-width: 768px) {
-  .sponsors-grid {
-    grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
-    gap: 15px;
-  }
-  .sponsor-card {
-    width: 80%;
-  }
-  .sponsors-container {
-    width: 100%;
-  }
-  .sponsors-container h1 {
-    font-size: 2rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .sponsors-grid {
-    grid-template-columns: 1fr; /* Single column for mobile */
-  }
-
-  .sponsor-card img {
-    width: 100%; /* Same fixed height */
-  }
-
-  .sponsors-container h1 {
-    font-size: 1.8rem;
-    padding: 15px;
-  }
-}
+*/

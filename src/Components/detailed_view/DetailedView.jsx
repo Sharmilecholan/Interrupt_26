@@ -6,7 +6,7 @@ import { useParams } from "react-router-dom";
 
 const DetailedView = ({type}) => {
   const params = useParams();
-  const title = type === "workshop" ? "Exploring Augmented Reality: A Hands-On Workshop" : params.id;
+  const title = type === "workshop" ? "Generative AI + RAG Workshop – Build Intelligent Academic Systems" : params.id;
 
   console.log(type);
   
