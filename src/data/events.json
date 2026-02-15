@@ -35,7 +35,7 @@
       "Bring pen."
     ],
     "time": "9:30 AM - 3:00 PM",
-    "image": "/public/events/code_auction.png",
+    "image": "/events/code_auction.png",
     "prize": {
       "Winner": "TBA",
       "Runner Up": "TBA"
@@ -81,7 +81,7 @@
       "Pen and paper required."
     ],
     "time": "9:30 AM - 3:00 PM",
-    "image": "/public/events/logic_lockdown.png",
+    "image": "/events/logic_lockdown.png",
     "prize": {
       "Winner": "TBA",
       "Runner Up": "TBA"
@@ -115,7 +115,7 @@
       "Participants must bring their own laptops."
     ],
     "time": "9:30 AM - 3:00 PM",
-    "image": "/public/events/paper.png",
+    "image": "/events/paper.png",
     "prize": {
       "Winner": "TBA",
       "Runner Up": "TBA"
@@ -153,7 +153,7 @@
       "Laptop is necessary."
     ],
     "time": "9:30 AM - 3:00 PM",
-    "image": "/public/events/among.png",
+    "image": "/events/among.png",
     "prize": {
       "Winner": "TBA",
       "Runner Up": "TBA"
@@ -190,7 +190,7 @@
       "Required software must be pre-installed."
     ],
     "time": "9:30 AM - 3:00 PM",
-    "image": "/public/events/workshop1.png",
+    "image": "/events/workshop1.png",
     "prize": {
       "Winner": "-",
       "Runner Up": "-"
@@ -236,7 +236,7 @@
       "Valid identification and proof of registration required."
     ],
     "time": "9:30 AM - 3:00 PM",
-    "image": "/public/events/cyber_arena.png",
+    "image": "/events/cyber_arena.png",
     "prize": {
       "Winner": "TBA",
       "Runner Up": "TBA"
@@ -281,7 +281,7 @@
       "Bring pen."
     ],
     "time": "9:30 AM - 3:00 PM",
-    "image": "/public/events/mind_flayer.png",
+    "image": "/events/mind_flayer.png",
     "prize": {
       "Winner": "TBA",
       "Runner Up": "TBA"
@@ -331,7 +331,7 @@
       "Pen and paper."
     ],
     "time": "Round 1: 9:30 AM ",
-    "image": "/public/events/design_dash.png",
+    "image": "/events/design_dash.png",
     "prize": {
       "Winner": "TBA",
       "Runner Up": "TBA"
@@ -388,7 +388,7 @@
     "Participants must report to the venue before the event begins."
   ],
   "time": "Round 1: 9:30 AM | 11:00 AM | Round 2: 12:45 PM",
-  "image": "/public/events/root_access.png",
+  "image": "/events/root_access.png",
   "prize": {
     "Winner": "TBA",
     "Runner Up": "TBA"
