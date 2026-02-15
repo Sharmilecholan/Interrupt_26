@@ -1,17 +1,17 @@
 {
   "interrupt25": [
-    { "url": "src/assets/gallery/im (1).jpg", "thumbnail": "src/assets/gallery/im (1).jpg" },
-    { "url": "src/assets/gallery/im (2).jpg", "thumbnail": "src/assets/gallery/im (2).jpg" },
-    { "url": "src/assets/gallery/im (3).jpg", "thumbnail": "src/assets/gallery/im (3).jpg" },
-    { "url": "src/assets/gallery/im (4).jpg", "thumbnail": "src/assets/gallery/im (4).jpg" },
-    { "url": "src/assets/gallery/im (5).jpg", "thumbnail": "src/assets/gallery/im (5).jpg" },
-    { "url": "src/assets/gallery/im (6).jpg", "thumbnail": "src/assets/gallery/im (6).jpg" },
-    { "url": "src/assets/gallery/im (7).jpg", "thumbnail": "src/assets/gallery/im (7).jpg" },
-    { "url": "src/assets/gallery/im (8).jpg", "thumbnail": "src/assets/gallery/im (8).jpg" },
-    { "url": "src/assets/gallery/im (9).jpg", "thumbnail": "src/assets/gallery/im (9).jpg" },
-    { "url": "src/assets/gallery/im (10).jpg", "thumbnail": "src/assets/gallery/im (10).jpg" },
-    { "url": "src/assets/gallery/im (11).jpg", "thumbnail": "src/assets/gallery/im (11).jpg" },
-    { "url": "src/assets/gallery/im (12).jpg", "thumbnail": "src/assets/gallery/im (12).jpg" }
+    { "url": "public/gallery/im (1).jpg", "thumbnail": "public/gallery/im (1).jpg" },
+    { "url": "public/gallery/im (2).jpg", "thumbnail": "public/gallery/im (2).jpg" },
+    { "url": "public/gallery/im (3).jpg", "thumbnail": "public/gallery/im (3).jpg" },
+    { "url": "public/gallery/im (4).jpg", "thumbnail": "public/gallery/im (4).jpg" },
+    { "url": "public/gallery/im (5).jpg", "thumbnail": "public/gallery/im (5).jpg" },
+    { "url": "public/gallery/im (6).jpg", "thumbnail": "public/gallery/im (6).jpg" },
+    { "url": "public/gallery/im (7).jpg", "thumbnail": "public/gallery/im (7).jpg" },
+    { "url": "public/gallery/im (8).jpg", "thumbnail": "public/gallery/im (8).jpg" },
+    { "url": "public/gallery/im (9).jpg", "thumbnail": "public/gallery/im (9).jpg" },
+    { "url": "public/gallery/im (10).jpg", "thumbnail": "public/gallery/im (10).jpg" },
+    { "url": "public/gallery/im (11).jpg", "thumbnail": "public/gallery/im (11).jpg" },
+    { "url": "public/gallery/im (12).jpg", "thumbnail": "public/gallery/im (12).jpg" }
   ],
   "interrupt23":
   [
