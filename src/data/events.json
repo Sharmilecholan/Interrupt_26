@@ -342,46 +342,59 @@
     "form": "#"
   },
   "Root Access": {
-    "date": "Feb 20",
-    "venue": "To be Announced",
-    "description": {
-  "Round 1": {
-    "title": "Decode the Logic. Navigate the System. Gain Access.",
-    "para": "Root Access is a single-round, logic-driven technical challenge that tests participants’ programming skills, logical reasoning, and system-level understanding.",
-    "list": [
-      "Logical reasoning and algorithmic thinking",
-      "Function implementation based on constraints",
-      "Debugging and accurate code execution",
-      "Correct terminal commands and directory navigation",
-      "System-level problem-solving skills"
-    ],
-    "para1": "Teams must analyze problem statements, validate using dummy input, generate an access key, and navigate hidden directories using the terminal. The team retrieving the maximum valid keywords within the time limit wins."
-  }
+  "date": "Feb 20",
+  "venue": "To be Announced",
+  "description": {
+    "Round 1": {
+      "title": "Access Grid (Technical XO Challenge)",
+      "para": "An engaging technical Tic-Tac-Toe (XO) challenge designed to evaluate programming knowledge, logical thinking, and presence of mind.",
+      "list": [
+        "Two teams compete against each other on a 3×3 grid",
+        "Programming and logical questions are asked by organizers",
+        "Correct answer earns the chance to place X or O on the grid",
+        "If incorrect, the question passes to the opposing team",
+        "If both teams fail, a new question is asked",
+        "First team to complete three in a row (horizontal, vertical, or diagonal) wins",
+        "If time expires, the team with more grid positions wins",
+        "Winning teams qualify for Round 2"
+      ],
+      "para1": "This round tests speed, accuracy, and strategic thinking under pressure."
+    },
+    "Round 2": {
+      "title": "Root Access Challenge",
+      "para": "A system-based coding challenge focused on terminal usage, logical reasoning, and secure navigation.",
+      "list": [
+        "Teams solve programming problems with specific logic requirements",
+        "Participants must write and execute code using the terminal",
+        "After validation, teams receive actual input to generate an access key",
+        "The access key is used to navigate a secure folder structure",
+        "Each correct directory path reveals a keyword",
+        "Teams submit keywords to earn points",
+        "Evaluation based on number of keywords retrieved and completion time"
+      ],
+      "para1": "Accuracy, efficiency, and structured problem-solving determine the winners."
+    }
   },
-    "event_rules": [
-      "Each team must consist of exactly 2 members.",
-      "Participants may use any programming language available on the system.",
-      "Participants must use the terminal to write, compile, and execute their code.",
-      "Participants must validate their code using dummy input before receiving actual input.",
-      "Internet usage is strictly prohibited.",
-      "Mobile phones, internet, or external storage devices are not allowed.",
-      "Participants may only access directories using valid generated keys.",
-      "Participants must not modify, delete, or tamper with system folders or files.",
-      "Teams must work independently."
-    ],
-    "event_requirements": [
-      "Valid identification and proof of registration are required.",
-      "Bring notebook and pen."
-    ],
-    "time": "To be Announced",
-    "image": "/src/assets/events/root_access.png",
-    "prize": {
-      "Winner": "TBA",
-      "Runner Up": "TBA"
-    },
-    "contact": {
-      "Nantha Kisore": "8056242898"
-    },
-    "form": "#"
-  }
-}
+  "event_rules": [
+    "Each team must consist of 2 members.",
+    "Mobile phones and internet usage are not allowed during the event.",
+    "Participants must use the provided system and terminal in Round 2.",
+    "Teams must answer only when recognized by the organizer in Round 1.",
+    "All tasks must be completed within the given time limit.",
+    "Judges’ decision will be final and binding."
+  ],
+  "event_requirements": [
+    "Valid identification and proof of registration are required.",
+    "Participants must report to the venue before the event begins."
+  ],
+  "time": "Round 1: 9:30 AM | 11:00 AM | Round 2: 12:45 PM",
+  "image": "/src/assets/events/root_access.png",
+  "prize": {
+    "Winner": "TBA",
+    "Runner Up": "TBA"
+  },
+  "contact": {
+    "Nantha Kishore S": "8056242898"
+  },
+  "form": "#"
+}}
