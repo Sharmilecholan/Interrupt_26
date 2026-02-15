@@ -6,7 +6,7 @@
         {
           "name": "Mithun S",
           "role": "President",
-          "image": "public/images/mithun.png",
+          "image": "/images/mithun.png",
           "linkedin": "#",
           "year": "IV",
           "dept": "AD"
@@ -14,7 +14,7 @@
         {
           "name": "Kiran M S",
           "role": "Vice President",
-          "image": "public/images/kiran.png",
+          "image": "/images/kiran.png",
           "linkedin": "#",
           "year": "IV",
           "dept": "CS"
@@ -22,7 +22,7 @@
         {
           "name": "Srinidhi S",
           "role": "Vice President",
-          "image": "public/images/srinidhi.png",
+          "image": "/images/srinidhi.png",
           "linkedin": "#",
           "year": "IV",
           "dept": "CS"
@@ -30,7 +30,7 @@
         {
           "name": "Harsh S",
           "role": "Vice President",
-          "image": "public/images/harsh.png",
+          "image": "/images/harsh.png",
           "linkedin": "#",
           "year": "IV",
           "dept": "AD"
@@ -38,7 +38,7 @@
         {
           "name": "Jai Krishna Prasath D",
           "role": "Secretary",
-          "image": "public/images/jai.png",
+          "image": "/images/jai.png",
           "linkedin": "#",
           "year": "III",
           "dept": "AD"
@@ -46,7 +46,7 @@
         {
           "name": "Sarvesh Raghav B",
           "role": "Operations Head",
-          "image": "public/images/raghav1.png",
+          "image": "/images/raghav1.png",
           "linkedin": "#",
           "year": "III",
           "dept": "CS"
@@ -54,7 +54,7 @@
         {
           "name": "Ashika Haseen S",
           "role": "Treasurer",
-          "image": "public/images/ashika.png",
+          "image": "/images/ashika.png",
           "linkedin": "#",
           "year": "III",
           "dept": "CS"
@@ -62,7 +62,7 @@
         {
           "name": "Nirrmal G",
           "role": "Joint Secretary",
-          "image": "public/images/nirrms.png",
+          "image": "/images/nirrms.png",
           "linkedin": "#",
           "year": "II",
           "dept": "CS"
@@ -74,70 +74,70 @@
       "name": "Executive Members",
       "teamLead": [],
       "members": [
-        { "name": "Johan A", "role": "Executive Associative", "image": "public/images/johan.png", "linkedin": "#", "year": "II", "dept": "CS" },
-        { "name": "Aravintth T", "role": "Executive Associative", "image": "public/images/aravintth.jpeg", "linkedin": "#", "year": "II", "dept": "AD" },
-        { "name": "Shrinithi Dasarathy", "role": "Executive Associative", "image": "public/images/shrinithi.png", "linkedin": "#", "year": "II", "dept": "CS" },
-        { "name": "Kavya K P", "role": "Executive Associative", "image": "public/images/kavya.png", "linkedin": "#", "year": "II", "dept": "AD" },
-        { "name": "Mirthun K S", "role": "Executive Member", "image": "public/images/mirthun.png", "linkedin": "#", "year": "II", "dept": "CS" },
-        { "name": "Shree Kowsik S B", "role": "Executive Member", "image": "public/images/kowsik.png", "linkedin": "#", "year": "II", "dept": "CS" },
-        { "name": "Salai B Dharshini", "role": "Executive Member", "image": "public/images/salai.png", "linkedin": "#", "year": "II", "dept": "CS" },
-        { "name": "C Dhinesh", "role": "Executive Member", "image": "public/images/dhinesh.png", "linkedin": "#", "year": "II", "dept": "CS" },
-        { "name": "Alagu Manikandan", "role": "Executive Member", "image": "public/images/am.png", "linkedin": "#", "year": "II", "dept": "CS" },
-        { "name": "Rethinagiri S", "role": "Executive Member", "image": "public/images/rethinagiri.png", "linkedin": "#", "year": "II", "dept": "CS" },
-        { "name": "Arpitha Paraneetharan", "role": "Executive Member", "image": "public/images/arpritha.png", "linkedin": "#", "year": "II", "dept": "CS" },
-        { "name": "Kesava Navya", "role": "Executive Member", "image": "public/images/kesava.png", "linkedin": "#", "year": "II", "dept": "CS" }
+        { "name": "Johan A", "role": "Executive Associative", "image": "/images/johan.png", "linkedin": "#", "year": "II", "dept": "CS" },
+        { "name": "Aravintth T", "role": "Executive Associative", "image": "/images/aravintth.jpeg", "linkedin": "#", "year": "II", "dept": "AD" },
+        { "name": "Shrinithi Dasarathy", "role": "Executive Associative", "image": "/images/shrinithi.png", "linkedin": "#", "year": "II", "dept": "CS" },
+        { "name": "Kavya K P", "role": "Executive Associative", "image": "/images/kavya.png", "linkedin": "#", "year": "II", "dept": "AD" },
+        { "name": "Mirthun K S", "role": "Executive Member", "image": "/images/mirthun.png", "linkedin": "#", "year": "II", "dept": "CS" },
+        { "name": "Shree Kowsik S B", "role": "Executive Member", "image": "/images/kowsik.png", "linkedin": "#", "year": "II", "dept": "CS" },
+        { "name": "Salai B Dharshini", "role": "Executive Member", "image": "/images/salai.png", "linkedin": "#", "year": "II", "dept": "CS" },
+        { "name": "C Dhinesh", "role": "Executive Member", "image": "/images/dhinesh.png", "linkedin": "#", "year": "II", "dept": "CS" },
+        { "name": "Alagu Manikandan", "role": "Executive Member", "image": "/images/am.png", "linkedin": "#", "year": "II", "dept": "CS" },
+        { "name": "Rethinagiri S", "role": "Executive Member", "image": "/images/rethinagiri.png", "linkedin": "#", "year": "II", "dept": "CS" },
+        { "name": "Arpitha Paraneetharan", "role": "Executive Member", "image": "/images/arpritha.png", "linkedin": "#", "year": "II", "dept": "CS" },
+        { "name": "Kesava Navya", "role": "Executive Member", "image": "/images/kesava.png", "linkedin": "#", "year": "II", "dept": "CS" }
       ]
     },
     {
       "name": "Web Team",
       "teamLead": [
-        { "name": "Sharmile S", "role": "Web Team Lead", "image": "public/images/sharmile.png", "linkedin": "#", "year": "III", "dept": "CS" }
+        { "name": "Sharmile S", "role": "Web Team Lead", "image": "/images/sharmile.png", "linkedin": "#", "year": "III", "dept": "CS" }
       ],
       "members": [
-        { "name": "Sri Ram R", "role": "Web Team Member", "image": "public/images/sri.png", "linkedin": "#", "year": "II", "dept": "CS" },
-        { "name": "B Jashwanth Kumar", "role": "Web Team Member", "image": "public/images/jaswanth.png", "linkedin": "#", "year": "II", "dept": "CS" }
+        { "name": "Sri Ram R", "role": "Web Team Member", "image": "/images/sri.png", "linkedin": "#", "year": "II", "dept": "CS" },
+        { "name": "B Jashwanth Kumar", "role": "Web Team Member", "image": "/images/jaswanth.png", "linkedin": "#", "year": "II", "dept": "CS" }
       ]
     },
     {
       "name": "Design Team",
       "teamLead": [
-        { "name": "Aneesh Kumar R", "role": "Design Team Head", "image": "public/images/aneesh.jpeg", "linkedin": "#", "year": "III", "dept": "AD" },
-        { "name": "Kanisha S", "role": "Design Team Head", "image": "public/images/kanisha.png", "linkedin": "#", "year": "III", "dept": "AD" }
+        { "name": "Aneesh Kumar R", "role": "Design Team Head", "image": "/images/aneesh.jpeg", "linkedin": "#", "year": "III", "dept": "AD" },
+        { "name": "Kanisha S", "role": "Design Team Head", "image": "/images/kanisha.png", "linkedin": "#", "year": "III", "dept": "AD" }
       ],
       "members": [
-        { "name": "Nantha Kishore S", "role": "Design Team Member", "image": "public/images/nantha.png", "linkedin": "#", "year": "II", "dept": "AD" },
-        { "name": "Rajeshwari B C", "role": "Design Team Member", "image": "public/images/raje.png", "linkedin": "#", "year": "II", "dept": "AD" },
-        { "name": "Kavinithi R P", "role": "Design Team Member", "image": "public/images/kavinithi.png", "linkedin": "#", "year": "II", "dept": "AD" }
+        { "name": "Nantha Kishore S", "role": "Design Team Member", "image": "/images/nantha.png", "linkedin": "#", "year": "II", "dept": "AD" },
+        { "name": "Rajeshwari B C", "role": "Design Team Member", "image": "/images/raje.png", "linkedin": "#", "year": "II", "dept": "AD" },
+        { "name": "Kavinithi R P", "role": "Design Team Member", "image": "/images/kavinithi.png", "linkedin": "#", "year": "II", "dept": "AD" }
       ]
     },
     {
       "name": "Content Team",
       "teamLead": [
-        { "name": "Sadhana S", "role": "Content Team Head", "image": "public/images/sadhana.png", "linkedin": "#", "year": "III", "dept": "CS" }
+        { "name": "Sadhana S", "role": "Content Team Head", "image": "/images/sadhana.png", "linkedin": "#", "year": "III", "dept": "CS" }
       ],
       "members": [
-        { "name": "Mona Shree", "role": "Content Team Member", "image": "public/images/mona.png", "linkedin": "#", "year": "II", "dept": "CS" },
-        { "name": "Vaishnavi Chitraa M", "role": "Content Team Member", "image": "public/images/vaishnavi.png", "linkedin": "#", "year": "II", "dept": "CS" },
-        { "name": "Tharun Kumar T", "role": "Content Team Member", "image": "public/images/tk.png", "linkedin": "#", "year": "II", "dept": "CS" }
+        { "name": "Mona Shree", "role": "Content Team Member", "image": "/images/mona.png", "linkedin": "#", "year": "II", "dept": "CS" },
+        { "name": "Vaishnavi Chitraa M", "role": "Content Team Member", "image": "/images/vaishnavi.png", "linkedin": "#", "year": "II", "dept": "CS" },
+        { "name": "Tharun Kumar T", "role": "Content Team Member", "image": "/images/tk.png", "linkedin": "#", "year": "II", "dept": "CS" }
       ]
     },
     {
       "name": "Marketing and Outreach Team",
       "teamLead": [
-        { "name": "Shashank N S", "role": "Marketing Team Head", "image": "public/images/shashank.png", "linkedin": "#", "year": "III", "dept": "CS" },
-        { "name": "Hariganesh A", "role": "Outreach Team Head", "image": "public/images/harii.jpeg", "linkedin": "#", "year": "III", "dept": "CS" }
+        { "name": "Shashank N S", "role": "Marketing Team Head", "image": "/images/shashank.png", "linkedin": "#", "year": "III", "dept": "CS" },
+        { "name": "Hariganesh A", "role": "Outreach Team Head", "image": "/images/harii.jpeg", "linkedin": "#", "year": "III", "dept": "CS" }
       ],
       "members": [
-        { "name": "Priyanka A", "role": "Marketing Team Member", "image": "public/images/priyanka.png", "linkedin": "#", "year": "II", "dept": "CS" },
-        { "name": "Sharmila M", "role": "Marketing Team Member", "image": "public/images/sharmila.png", "linkedin": "#", "year": "II", "dept": "CS" },
-        { "name": "Bhavana G", "role": "Marketing Team Member", "image": "public/images/bhavana.png", "linkedin": "#", "year": "II", "dept": "CS" }
+        { "name": "Priyanka A", "role": "Marketing Team Member", "image": "/images/priyanka.png", "linkedin": "#", "year": "II", "dept": "CS" },
+        { "name": "Sharmila M", "role": "Marketing Team Member", "image": "/images/sharmila.png", "linkedin": "#", "year": "II", "dept": "CS" },
+        { "name": "Bhavana G", "role": "Marketing Team Member", "image": "/images/bhavana.png", "linkedin": "#", "year": "II", "dept": "CS" }
       ]
     },
     {
       "name": "Photography Team",
       "teamLead": [],
       "members": [
-        { "name": "V Raghav", "role": "Photography Team Member", "image": "public/images/raghav.png", "linkedin": "#", "year": "II", "dept": "AD" }
+        { "name": "V Raghav", "role": "Photography Team Member", "image": "/images/raghav.png", "linkedin": "#", "year": "II", "dept": "AD" }
       ]
     }
   ]
