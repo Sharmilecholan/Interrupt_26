@@ -42,7 +42,7 @@ export default function Home() {
         <div className="center-register-group">
           <button
             className="register-btn events-register"
-            onClick={() => window.open("https://takemytickets.co.in/event/699315885b389b1ccf397c34", "_blank")}
+            onClick={() => window.open("https://takemytickets.co.in/event/699334965b389b1ccf397e6a", "_blank")}
           >
             Register for Events
           </button>
