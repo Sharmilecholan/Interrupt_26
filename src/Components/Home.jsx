@@ -18,7 +18,7 @@ export default function Home() {
 
   return (
     <div className="homepage-container" id="home">
-        <img src={Interrupt} alt="about interrupt" className="large-logo" data-aos="zoom-in" />
+      <img src={Interrupt} alt="about interrupt" className="large-logo" data-aos="zoom-in" />
       <div className="content">
         <h3 data-aos='fade-left'>The Annual Technical Fest of ACE</h3>
         <p data-aos='fade-right'>Sri Venkateswara College of Engineering</p>{" "}
@@ -29,42 +29,42 @@ export default function Home() {
 
       <div className="button-container">
 
-  {/* Left - Events */}
-  <div className="side-button">
-    <FuturisticButton
-      text="Events"
-      icon={<FaCalendarAlt />}
-      onClick={() => navigate("/events")}
-    />
-  </div>
+        {/* Left - Events */}
+        <div className="side-button">
+          <FuturisticButton
+            text="Events"
+            icon={<FaCalendarAlt />}
+            onClick={() => navigate("/events")}
+          />
+        </div>
 
-  {/* Center - Register Buttons */}
-  <div className="center-register-group">
-    <button
-      className="register-btn events-register"
-      onClick={() => window.open("https://takemytickets.co.in/event/699315885b389b1ccf397c34", "_blank")}
-    >
-      Register for Events
-    </button>
+        {/* Center - Register Buttons */}
+        <div className="center-register-group">
+          <button
+            className="register-btn events-register"
+            onClick={() => window.open("https://takemytickets.co.in/event/699315885b389b1ccf397c34", "_blank")}
+          >
+            Register for Events
+          </button>
 
-    <button
-      className="register-btn workshop-register"
-      onClick={() => window.open("https://docs.google.com/forms/d/e/1FAIpQLSfvyxNFRUA066ZuuZqGB690o719VgxdTRcTVSfxWsMFf8yV5w/viewform?usp=publish-editor", "_blank")}
-    >
-      Register for Workshop
-    </button>
-  </div>
+          <button
+            className="register-btn workshop-register"
+            onClick={() => navigate("/workshop-registration")}
+          >
+            Register for Workshop
+          </button>
+        </div>
 
-  {/* Right - Workshops */}
-  <div className="side-button">
-    <FuturisticButton
-      text="Workshops"
-      icon={<FaWrench />}
-      onClick={() => navigate("/workshop")}
-    />
-  </div>
+        {/* Right - Workshops */}
+        <div className="side-button">
+          <FuturisticButton
+            text="Workshops"
+            icon={<FaWrench />}
+            onClick={() => navigate("/workshop")}
+          />
+        </div>
 
-</div>
+      </div>
 
       {<Countdown />}
       {<About />}

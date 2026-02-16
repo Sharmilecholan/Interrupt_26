@@ -2,14 +2,14 @@ import React from "react";
 import "../../Styles/detailed_view.css";
 import events from "../../data/events.json";
 import workshop from "../../data/workshop.json";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 
-const DetailedView = ({type}) => {
+const DetailedView = ({ type }) => {
   const params = useParams();
   const title = type === "workshop" ? "Generative AI + RAG Workshop – Build Intelligent Academic Systems" : params.id;
 
   console.log(type);
-  
+
   const event = type === "workshop" ? workshop[title] : events[title];
 
   console.log(import.meta.env.PUBLIC_URL);
@@ -29,7 +29,7 @@ const DetailedView = ({type}) => {
             <div className="content-container">
               <div className="grid">
                 <strong style={{ color: "gold", fontWeight: "500" }}>📅 Date</strong>
-                <p style={{ color: "gold", fontWeight: "500"}}>:</p>
+                <p style={{ color: "gold", fontWeight: "500" }}>:</p>
                 <p style={{ color: "white", fontWeight: "500" }}> {event.date}</p>
                 <strong style={{ color: "gold", fontWeight: "500" }}>⏳ Timing</strong>
                 <p style={{ color: "gold", fontWeight: "500" }}>:</p>
@@ -123,9 +123,13 @@ const DetailedView = ({type}) => {
           {/* Register Button and Contact Info */}
           <div className="registration-container">
             <div className="registration">
-              <a href={event.form} target="_blank">
-                Register Now
-              </a>
+              {type === "workshop" ? (
+                <Link to="/workshop-registration">Register Now</Link>
+              ) : (
+                <a href={event.form} target="_blank" rel="noreferrer">
+                  Register Now
+                </a>
+              )}
             </div>
           </div>
         </div>
